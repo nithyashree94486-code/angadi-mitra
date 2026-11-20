@@ -6,10 +6,10 @@ Multilingual Agentic AI inventory assistant for small kirana stores
 
 **Tech4Bharat 2026 – JanAI Mass Entrepreneurship Challenge**  
 **Problem Statement:** PS 5.1 – Kirana Stock  
-**Theme:** 5 – Retail, FMCG & Logistics  
+**Theme:** 5 – Rural FMCG & Logistics  
 **Approach:** Agentic AI
 
-**Presented by:** Nityashree and Pooja
+**Presented by:** Nithyashree H L and Pooja Achar
 
 ## 1. About the Project
 
@@ -103,8 +103,8 @@ This repository documents the proposed solution and its planned architecture. Pr
 
 ## 10. Team
 
-- Nityashree
-- Pooja
+- Nithyashree H L
+- Pooja Achar
 
 **Project:** Angadi Mitra  
 **Hackathon:** Tech4Bharat 2026
