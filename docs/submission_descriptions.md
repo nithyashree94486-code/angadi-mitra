@@ -14,7 +14,7 @@ Using Agentic AI (Google Gemini with function calling), Angadi Mitra understands
 
 The app is designed to deliver useful insights within the first 7 days, even with no prior records. It runs as a Progressive Web App on Android, supports 8+ Indian languages for both speech and interface, and works offline for core features.
 
-**Problem Addressed:** PS 5.1 — Kirana Stock | Tech4Bharat 2026 | Theme 5 — Retail, FMCG & Logistics
+**Problem Addressed:** PS 5.1 — Kirana Stock | Tech4Bharat 2026 | Theme 5 — Rural FMCG and Logistics
 
 ---
 
@@ -100,7 +100,7 @@ The agent:
 | UI | Tailwind CSS + shadcn/ui |
 | Backend & Database | Supabase (PostgreSQL + Auth + Storage) |
 | Authentication | Supabase OTP (phone-based) |
-| AI Agent | Google Gemini 1.5 Flash (Function Calling) |
+| AI Agent | Google Gemini (evaluating gemini-3.8-flash) (Function Calling) |
 | Voice STT | Web Speech API + Google Cloud STT |
 | Voice TTS | Web Speech API + Google Cloud TTS |
 | Offline | Dexie.js (IndexedDB) + Service Worker |

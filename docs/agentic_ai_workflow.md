@@ -1,7 +1,14 @@
 # Agentic AI Workflow — Angadi Mitra
 
-> **Status:** Proposed design — not yet implemented.
+> **Status:** Proposed design — not yet implemented.  
+> **Core Principle:** AI Recommends. The Shopkeeper Decides.  
 > **Last updated:** November 2026
+
+---
+
+> [!IMPORTANT]
+> **Zero Autonomous Financial Spending:**  
+> The AI agent evaluates inventory velocity, flags runout risks, and calculates optimal order quantities constrained by cash on hand. However, it **strictly never places an order, transmits money, or commits inventory mutations autonomously**. Every action requires explicit shopkeeper approval through a single tap or spoken confirmation.
 
 ---
 
@@ -277,7 +284,7 @@ The agent should never silently make a wrong assumption.
 ```mermaid
 flowchart TD
     A["Shopkeeper Input\n(Voice / Text / Touch)"] --> B["STT Layer\n(Web Speech / Cloud STT)"]
-    B --> C["Agent Orchestrator\n(Gemini 1.5 Flash)"]
+    B --> C["Agent Orchestrator\n(Gemini 3.8 Flash)"]
     C --> D{"Plan action\nsequence"}
     D --> E["Call Tools\n(function calling)"]
     E --> F["Inventory Tools\n(read/write inventory)"]

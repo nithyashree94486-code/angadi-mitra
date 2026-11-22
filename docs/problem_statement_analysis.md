@@ -15,7 +15,7 @@
 | Hackathon | Tech4Bharat 2026 — JanAI Mass Entrepreneurship Challenge |
 | Problem Statement ID | PS 5.1 |
 | PS Title | Kirana Stock |
-| Theme | Theme 5 — Retail, FMCG & Logistics |
+| Theme | Theme 5 — Rural FMCG & Logistics |
 | Official PDF | https://thegavshackathon.com/docs/Tech4Bharat-2026-Problem-Statements.pdf |
 | Relevant Pages | Page 3 (overall challenge requirements), Page 13 (PS 5.1) |
 

@@ -15,12 +15,12 @@
 
 - **Hackathon:** Tech4Bharat 2026 — JanAI Mass Entrepreneurship Challenge
 - **Problem Statement:** PS 5.1 — Kirana Stock
-- **Theme:** Theme 5 — Retail, FMCG & Logistics
+- **Theme:** Theme 5 — Rural FMCG and Logistics
 - **AI Approach:** Agentic AI
 
-**Team:**
-- Nithyashree — Lead Developer & Product
-- Pooja — Developer & Research
+**Contributors:**
+- Nithyashree H L — [https://github.com/nithyashree94486-code](https://github.com/nithyashree94486-code)
+- Pooja Achar — [https://github.com/pooja132a79450](https://github.com/pooja132a79450)
 
 **Suggested Visual:**
 A warm, clean illustration of a kirana store shopkeeper holding a smartphone. The app interface is visible showing colourful product cards. Text in Kannada and Hindi visible in the background.
@@ -225,7 +225,7 @@ A clean flowchart (from the agentic_ai_workflow.md Mermaid diagram) showing the 
 | UI | Tailwind CSS + shadcn/ui | Rapid, accessible |
 | Backend & DB | Supabase (PostgreSQL) | Managed, free tier, RLS |
 | Auth | Supabase Auth (OTP) | Phone-based, no email |
-| AI Agent | Google Gemini 1.5 Flash | Indian languages, function calling |
+| AI Agent | Google Gemini (evaluating gemini-3.8-flash) | Indian languages, function calling |
 | Voice (STT) | Web Speech API + Cloud STT | Free + verified Indian language |
 | Voice (TTS) | Web Speech API + Cloud TTS | Hindi, Kannada, Tamil verified |
 | Offline | IndexedDB (Dexie.js) + PWA | Local-first, sync on reconnect |

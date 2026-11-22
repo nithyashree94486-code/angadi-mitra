@@ -9,6 +9,35 @@
 
 Angadi Mitra is designed as a **Progressive Web App (PWA)** with an agentic AI backend. The architecture is intentionally layered so that each layer has a clear and limited responsibility.
 
+### Conceptual Architecture Diagram
+![Angadi Mitra Conceptual System Architecture](../assets/architecture_diagram.png)
+
+### End-to-End Conceptual Workflow Sequence:
+```
+Shopkeeper (Voice / Touch / Barcode)
+   │
+   ▼
+Multilingual Frontend (Mobile PWA / Offline IndexedDB)
+   │
+   ▼
+Agentic AI Orchestration (Intent Recognition & Multi-Step Planner)
+   │
+   ▼
+Inventory & Analysis Tools (APIs: stock, velocity, expiry, budget)
+   │
+   ▼
+Deterministic Logic Engine (Exact stock arithmetic & budget cap enforcement)
+   │
+   ▼
+Database & Local Cache (PostgreSQL / Supabase RLS)
+   │
+   ▼
+MANDATORY HUMAN APPROVAL GATE (AI Recommends — Shopkeeper Decides)
+   │
+   ▼
+Audit Log Record & Spoken Vernacular Audio Confirmation
+```
+
 ```
 ┌────────────────────────────────────────────────────────────┐
 │                    SHOPKEEPER INTERFACE                     │
